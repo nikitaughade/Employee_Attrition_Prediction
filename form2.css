@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    text-align: center;
+}
+.form-2, .form-2 form  {
+    /* width:80%; */
+    margin:2rem auto;
+    padding:0 2rem;
+    box-sizing: border-box;
+}
+
+.form-2 input {
+    width:100%;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.section div {
+    /* border:2px solid red; */
+    width:100%;
+    margin:0 1rem;
+
+}
+
+input[type="submit"] {
+    display: block;
+    margin:0 auto;
+    width: 10rem;
+
+}
+
+
+@media screen and (max-width: 810px) {
+    .section {
+        flex-direction: column;
+    }
+}
