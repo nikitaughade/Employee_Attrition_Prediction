@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;700;900&family=Source+Sans+Pro:wght@900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- CSS Stylesheets -->
+    <link rel="stylesheet" href="../static/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>PredictX</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbar">
+        <h1>PredictX</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Products</a></li>
+          <button>SIGN UP</button>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="hero"><img src="../static/images/predictx.png" alt="" /></div>
+    </main>
+
+    <section>
+      <div class="forms-section">
+        <h2>Please select one of the following dataset</h2>
+
+        <div class="options">
+          <a href="/form-1">
+            <div class="card" id="card1">
+              <img src="../static/images/dataset.png" alt="" />
+              <p>
+                Dataset 1 contains total of 15 attributes which are used for
+                predictions
+              </p>
+            </div>
+          </a>
+          <a href="/form-2">
+            <div class="card" id="card2">
+              <img src="../static/images/dataset12.png" alt="" />
+              <p>
+                Dataset 2 contains total of 15 attributes which are used for
+                predictions
+              </p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!---------------------   Testimonials    -------------------------->
+
+    <section class="colored-section" id="testimonials">
+      <h2 class="testimonial-heading">Group Members</h2>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <!-- Aqusa -->
+
+          <div class="carousel-item active container-fluid">
+            <h2 class="testimonial-text">Aqusa Tabassum</h2>
+            <p class="testimonial-para">Frontend Development/Integration</p>
+            <img
+              class="testimonial-image"
+              src="../static/images/aqusa-img-edited.jpg"
+              alt="aqusa-profile"
+            />
+            <em class="testimonial-name">Aqusa Tabassum</em>
+          </div>
+
+          <!-- Janhavy -->
+
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">Janhavy Bhalerao</h2>
+            <p class="testimonial-para">Core Backend Development</p>
+            <img
+              class="testimonial-image"
+              src="../static/images/janhavy-img-edited.jpg"
+              alt="janhavy-profile"
+            />
+            <em class="testimonial-name">Janhavy Bhalerao</em>
+          </div>
+
+          <!-- Ashish -->
+
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">Ashish Deshpande</h2>
+            <p class="testimonial-para">Frontend Development/UI Design</p>
+            <img
+              class="testimonial-image"
+              src="../static/images/ashish-img-edited.jpg"
+              alt="ashish-profile"
+            />
+            <em class="testimonial-name">Ashish Deshpande</em>
+          </div>
+
+          <!-- Nikita -->
+
+          <div class="carousel-item container-fluid">
+            <h2 class="testimonial-text">Nikita Ughade</h2>
+            <p class="testimonial-para">Backend Development/Documentation</p>
+            <img
+              class="testimonial-image"
+              src="../static/images/nikita-img-edited.jpg"
+              alt="nikita-profile"
+            />
+            <em class="testimonial-name">Nikita Ughade</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+    <!------------------------------------------------------------------------------------------------>
+
+    <footer>
+      <div class="footer">
+        <div class="newsletter">
+          <h2>Join our newsletter to receive information about our product</h2>
+          <p>You can unsubscribe at any time</p>
+          <input type="text" placeholder="Your email" />
+        </div>
+
+        <div class="about">
+          <ul>
+            <h3>About Us</h3>
+            <li><a href="">How it works</a></li>
+            <li><a href="">Testimonials</a></li>
+            <li><a href="">Terms of Services</a></li>
+          </ul>
+          <ul>
+            <h3>Contact Us</h3>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Sponsorships</a></li>
+          </ul>
+        </div>
+
+        <div class="socials">
+          <h3>PredictX</h3>
+          <p>PredictX © 2023</p>
+          <ul>
+            <li><img src="../static/images/facebook.png" alt="" /></li>
+            <li><img src="../static/images/instagram.png" alt="" /></li>
+            <li><img src="../static/images/youtube.png" alt="" /></li>
+            <li><img src="../static/images/twitter.png" alt="" /></li>
+            <li><img src="../static/images/linkedin-logo.png" alt="" /></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
